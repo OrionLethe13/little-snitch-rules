@@ -3,30 +3,27 @@
   "name" : "Apple Pay",
   "rules" : [
     {
+      "direction": "outgoing",      
       "action" : "allow",
-      "creationDate" : 1597056545.50018,
-      "modificationDate" : 1597056545.50018,
-      "owner" : "me",
+      "priority": "regular",
       "ports" : "443",
       "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
       "protocol" : "tcp",
       "remote-hosts" : "message.mdes.mastercard.com"
     },
     {
+      "direction": "outgoing",      
       "action" : "allow",
-      "creationDate" : 1597056548.171186,
-      "modificationDate" : 1597056548.171186,
-      "owner" : "me",
+      "priority": "regular",      
       "ports" : "443",
       "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
       "protocol" : "tcp",
       "remote-hosts" : "tds.mdes.mastercard.com"
     },
     {
+      "direction": "outgoing",      
       "action" : "allow",
-      "creationDate" : 1597056496.7084589,
-      "modificationDate" : 1597056496.7084589,
-      "owner" : "me",
+      "priority": "regular",      
       "ports" : "443",
       "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
       "protocol" : "tcp",
