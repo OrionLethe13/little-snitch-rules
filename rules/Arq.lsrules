@@ -9,6 +9,7 @@
             "disabled": false,
             "ports": "443",
             "process": "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app",
+            "owner": "system"
             "protocol": "any",
             "remote-domains": "cloud.arqbackup.com",
             "notes": "Domain for Arq"
@@ -20,6 +21,7 @@
             "disabled": false,
             "ports": "443",
             "process": "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app",
+            "owner": "system"
             "protocol": "any",
             "remote-domains": [
                 "public.dm.files.1drv.com",
