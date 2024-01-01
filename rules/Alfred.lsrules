@@ -13,7 +13,7 @@
       "remote-domains" : [
         "alfred.app",
         "alfredapp.com"
-      ]
+      ],
       "notes": "Domains required for the Alfred Application"  
     },
     {
@@ -27,7 +27,7 @@
       "remote-domains" : [
         "alfred.app",
         "alfredapp.com"
-      ]
+      ],
       "notes": "Domains required for Alfred Preferences Application"  
     },
     {
@@ -41,7 +41,7 @@
       "remote-domains" : [
         "github.com",
         "githubusercontent.com"
-      ]
+      ],
       "notes": "Domains required for Alfred to install workflows" 
     },
   ]
