@@ -1,0 +1,21 @@
+{
+  "description" : "",
+  "name" : "",
+  "rules" : [
+    {
+      "direction": "outgoing",
+      "action" : "allow",
+      "priority": "regular",
+      "disabled": "false",
+      "ports" : "",
+      "process" : "",
+      "protocol" : "any",
+      "remote-domains" : "",
+      "notes": ""
+    }
+  ]
+}
+
+
+
+DELETEME -> https://help.obdev.at/littlesnitch4/ref-lsrules-file-format
