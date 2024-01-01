@@ -24,7 +24,7 @@
       "ports" : "443",
       "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
       "protocol" : "tcp",
-      "remote-hosts" : "vntsnotificationservice.visa.com"
+      "remote-hosts" : "vntsnotificationservice.visa.com",
       "notes": "Domains required for Apple Pay to use Visa"  
     }
   ]
