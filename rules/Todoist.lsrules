@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Todoist",
+  "rules" : [
+    {
+      "direction": "outgoing",
+      "action" : "allow",
+      "priority": "regular",
+      "disabled": false,
+      "ports" : "443",
+      "process" : "\/Applications\/Todoist.app\/Contents\/MacOS\/Todoist",
+      "protocol" : "any",
+      "remote-domains" : [
+        "todoist.com",
+        "todoist.net",
+        "todoist.b-cdn.net",
+        "sentry.io",
+        "browser-intake-datadoghq.com",
+        "cloudfront.net",
+        "googletagmanager.com",
+        "stripe.com",
+        "fastly.net"
+      ]
+    }
+  ]
+}
