@@ -6,55 +6,43 @@
       "direction": "outgoing",
       "action" : "allow",
       "priority": "regular",
+      "disabled": false,
       "ports" : "443",
       "process" : "\/Applications\/Alfred 5.app\/Contents\/MacOS\/Alfred",
       "protocol" : "any",
-      "remote-domains" : "alfred.app"
+      "remote-domains" : [
+        "alfred.app",
+        "alfredapp.com"
+      ]
+      "notes": "Domains required for the Alfred Application"  
     },
     {
       "direction": "outgoing",
       "action" : "allow",
       "priority": "regular",
+      "disabled": false,
       "ports" : "443",
-      "process" : "\/Applications\/Alfred 5.app\/Contents\/MacOS\/Alfred",
+      "process" : "\/Applications\/Alfred 5.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
       "protocol" : "any",
-      "remote-domains" : "alfredapp.com"
+      "remote-domains" : [
+        "alfred.app",
+        "alfredapp.com"
+      ]
+      "notes": "Domains required for Alfred Preferences Application"  
     },
     {
       "direction": "outgoing",
       "action" : "allow",
       "priority": "regular",
+      "disabled": false,
       "ports" : "443",
       "process" : "\/Applications\/Alfred 5.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
       "protocol" : "any",
-      "remote-domains" : "alfred.app"
-    },
-    {
-      "direction": "outgoing",
-      "action" : "allow",
-      "priority": "regular",
-      "ports" : "443",
-      "process" : "\/Applications\/Alfred 5.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
-      "protocol" : "any",
-      "remote-domains" : "alfredapp.com"
-    },
-        {
-      "direction": "outgoing",
-      "action" : "allow",
-      "priority": "regular",
-      "ports" : "443",
-      "process" : "\/Applications\/Alfred 5.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
-      "protocol" : "any",
-      "remote-domains" : "github.com"
-    },
-        {
-      "direction": "outgoing",
-      "action" : "allow",
-      "priority": "regular",
-      "ports" : "443",
-      "process" : "\/Applications\/Alfred 5.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
-      "protocol" : "any",
-      "remote-domains" : "githubusercontent.com"
+      "remote-domains" : [
+        "github.com",
+        "githubusercontent.com"
+      ]
+      "notes": "Domains required for Alfred to install workflows" 
     },
   ]
 }

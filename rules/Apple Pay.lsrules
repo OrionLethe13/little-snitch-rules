@@ -6,28 +6,26 @@
       "direction": "outgoing",      
       "action" : "allow",
       "priority": "regular",
+      "disabled": false,
       "ports" : "443",
       "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
       "protocol" : "tcp",
-      "remote-hosts" : "message.mdes.mastercard.com"
+      "remote-hosts" : [
+        "message.mdes.mastercard.com",
+        "tds.mdes.mastercard.com"
+      ]
+      "notes": "Domains required for Apple Pay to use Mastercard"  
     },
     {
       "direction": "outgoing",      
       "action" : "allow",
-      "priority": "regular",      
-      "ports" : "443",
-      "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
-      "protocol" : "tcp",
-      "remote-hosts" : "tds.mdes.mastercard.com"
-    },
-    {
-      "direction": "outgoing",      
-      "action" : "allow",
-      "priority": "regular",      
+      "priority": "regular",
+      "disabled": false,      
       "ports" : "443",
       "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
       "protocol" : "tcp",
       "remote-hosts" : "vntsnotificationservice.visa.com"
+      "notes": "Domains required for Apple Pay to use Visa"  
     }
   ]
 }
