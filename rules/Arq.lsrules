@@ -8,7 +8,7 @@
             "priority": "regular",
             "disabled": false,
             "ports": "443",
-            "process": "\\/Applications\\/Arq.app\\/Contents\\/Resources\\/ArqAgent.app",
+            "process": "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app",
             "protocol": "any",
             "remote-domains": "cloud.arqbackup.com",
             "notes": "Domain for Arq"
@@ -19,7 +19,7 @@
             "priority": "regular",
             "disabled": false,
             "ports": "443",
-            "process": "\\/Applications\\/Arq.app\\/Contents\\/Resources\\/ArqAgent.app",
+            "process": "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app",
             "protocol": "any",
             "remote-domains": [
                 "public.dm.files.1drv.com",
