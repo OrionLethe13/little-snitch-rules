@@ -24,6 +24,7 @@
             "process": "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app\/Contents\/MacOS\/ArqAgent",
             "protocol": "any",
             "remote-domains": [
+                "microsoftonline.com",
                 "public.dm.files.1drv.com",
                 "graph.microsoft.com",
                 "api.onedrive.com"
