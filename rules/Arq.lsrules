@@ -21,7 +21,7 @@
       "ports" : "443",
       "process" : "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app",
       "protocol" : "any",
-      "remote-domains" : ["public.dm.files.1drv.com","graph.microsoft.com","api.onedrive.com]
+      "remote-domains" : '["public.dm.files.1drv.com", "graph.microsoft.com", "api.onedrive.com]'
       "notes": "Rules for backup to OneDrive"
     }
   ]
