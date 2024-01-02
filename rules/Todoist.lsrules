@@ -19,7 +19,8 @@
         "cloudfront.net",
         "googletagmanager.com",
         "stripe.com",
-        "fastly.net"
+        "fastly.net",
+        "sprig.com"
       ]
     }
   ]
